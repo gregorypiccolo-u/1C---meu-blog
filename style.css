@@ -1,19 +1,28 @@
+:root {
+    --cor-primaria: #183C63;
+    --cor-segundaria: #3782d2;
+    --cor-fundo: #FFFFFF;
+    --cor-texto: #151428;
+    --cor-contraste: #f3eef7;
+    --cor-botao: #f9f9f9;
+}
+
 body {
     max-width: 100vw;
 }
 
 header {
-    background-color: rgb(54, 54, 163);
-    color: white;
+    background-color: var(--cor-primaria);
+    color: var(--cor-contraste);
     text-align: center;
     margin: 0 auto;
     padding: 16px;
-    border: 5px solid rgb(123, 123, 234);
+    border: 5px solid var(--cor-segundaria);
 }
 
 main {
-    background-color: white;
-    color: rgb(54, 54, 163);
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
     margin: 0 auto;
     padding: 16px;
 
@@ -24,7 +33,7 @@ main {
 article {
     display: flex;
     
-    border: 1px solid rgb(43, 43, 105);
+    border: 1px solid var(--cor-primaria);
 
 
     margin: 16px;
